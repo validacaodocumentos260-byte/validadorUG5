@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Consulta de Documentos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin:0;
+  background:#0a4fa3;
+  display:flex;
+  justify-content:center;
+}
+.container {
+  position: relative;
+  max-width: 736px;
+}
+.container img {
+  width:100%;
+  height:auto;
+  display:block;
+}
+.link {
+  position:absolute;
+  left:10%;
+  width:80%;
+  height:14%;
+}
+#view {
+  top:44%;
+}
+#download {
+  top:62%;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <img src="documento.png" alt="Consulta de Documentos">
+  <a id="view" class="link" href="ELTON UG.pdf" target="_blank"></a>
+  <a id="download" class="link" href="ELTON UG.pdf" download></a>
+</div>
+</body>
+</html>
